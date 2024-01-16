@@ -20,6 +20,6 @@ public class MethodOverloading {
         return a+b+c;
     }
     public int add(int a, int b, int c) {
-        return a+b+c;
+        return a+b;
     }
 }
