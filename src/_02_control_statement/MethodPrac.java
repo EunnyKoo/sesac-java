@@ -1,4 +1,7 @@
 package _02_control_statement;
+
+import java.util.Scanner;
+
 public class MethodPrac {
     public static void main(String[] args) {
         MethodPrac mp = new MethodPrac();
