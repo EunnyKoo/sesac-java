@@ -1,15 +1,15 @@
 package _55_jumpToJava;
 
 public class Sample {
-    int varTest(int a){
-        a++;
-        return a;
+    int a; // 객체 변수 a
+    void varTest(){
+        this.a++;
     }
 
     public static void main(String[] args) {
-        int a = 1;
         Sample sample = new Sample();
-        a = sample.varTest(a);
-        System.out.println(a);//2
+        sample.a = 1;
+        sample.varTest();
+        System.out.println(sample.a);
     }
 }
