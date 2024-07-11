@@ -1,4 +1,4 @@
-# CriminalIP-CTIDB-Feed
+# CIP-CTIDB-Feed
 
 This repository provides a daily updated list of IP addresses derived from the Criminal IP's CTIDB (Comprehensive IP-based Threat Intelligence Database) under the C2_TI license. Our aim is to offer a sample of 100 IP addresses daily, highlighting the threats identified by CIP, and to encourage users to consider the full version of our data for more extensive threat intelligence.
 
