@@ -14,15 +14,18 @@ This repository automatically updates every day with 100 IP addresses sourced fr
 - **Honeypot Detections**: IPs caught in honeypots.
 - Additional conditions as specified by senior analysts.
 
-### Data Fields
+## Data Fields
 The data provided includes the following fields, identical to those in the C2_TI license:
-- **IP**: The IP address.
-- **Country**: Country of origin.
-- **AS Name**: Autonomous System name.
-- **Reverse DNS**: Reverse DNS lookup result.
-- **Opened Ports**: Ports open on the IP address (formatted as `[80, 443]`).
-- **CVE**: Common Vulnerabilities and Exposures associated (if any).
-- **Description**: Brief description of the threat.
+
+| Field         | Description                                            |
+|---------------|--------------------------------------------------------|
+| IP            | The IP address.                                        |
+| Country       | Country of origin.                                     |
+| AS Name       | Autonomous System name.                                |
+| Reverse DNS   | Reverse DNS lookup result.                             |
+| Opened Ports  | Ports open on the IP address (formatted as [80, 443]). |
+| CVE           | Common Vulnerabilities and Exposures associated (if any). |
+| Description   | Brief description of the threat.                       |
 
 ## How to Use
 You can download the list directly from the repository. Here’s a simple way to fetch the list and use it with iptables and ipset:
