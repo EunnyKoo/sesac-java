@@ -1,13 +1,13 @@
-# CTIDB-C2-Feed
+# C2-Daily-Feed
 
-This repository provides a daily updated list of IP addresses derived from the Criminal IP's CTIDB (Comprehensive IP-based Threat Intelligence Database) under the C2_TI license. Our aim is to offer a sample of 100 IP addresses daily, highlighting the threats identified by CIP, and to encourage users to consider the full version of our data for more extensive threat intelligence.
+This repository provides a daily updated list of IP addresses derived from the Criminal IP(https://www.criminalip.io/) under the C2_TI license. Our aim is to offer a sample of 100 IP addresses daily, highlighting the threats identified by CIP, and to encourage users to consider the full version of our data for more extensive threat intelligence.
 
 ## Purpose
 1. To notify the community about the threat data provided by CIP through GitHub.
-2. To offer a free daily sample of 100 IP addresses from CTIDB's C2_TI license, promoting the full data purchase.
+2. To offer a free daily sample of 100 IP addresses from C2_TI license, promoting the full data purchase.
 
 ## Overview
-This repository automatically updates every day with 100 IP addresses sourced from CTIDB's C2_TI license. The selection criteria for these IPs include various conditions such as tags and honeypot detections. The IPs are distributed across different conditions to provide a diverse sample.
+This repository automatically updates every day with 100 IP addresses sourced from C2_TI license. The selection criteria for these IPs include various conditions such as tags and honeypot detections. The IPs are distributed across different conditions to provide a diverse sample.
 
 ## Criteria for IP Selection
 - **Tags**: IPs with C2_xx tags.
